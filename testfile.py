@@ -22,7 +22,10 @@ if __name__ == '__main__':
 	print "--------------------------"
 	
 	#read in text from the command line
-	textToCheck = raw_input("Please enter the text you would like to analyse: ")
+	#This needs to be fixed to deal/escape special characters
+	textToCheck = raw_input("Please enter the text you would like to analyse: ") 
+	
+	#read in text from a file- but what format?
 	
 	print "\n\n"
 	print "Results"
