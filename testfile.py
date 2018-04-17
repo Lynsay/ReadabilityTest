@@ -1,13 +1,11 @@
 #!/usr/bin/env python
-
 '''
 	File: TextStatResults.py
 	Version: 1.0
 	Date: March 2018
 	Author: Lynsay A. Shepherd
 	Description: Take piece of text and print out results for all tests.
-	#Requires TextStat- https://github.com/shivam5992/textstat
-		
+	#Requires TextStat- https://github.com/shivam5992/textstat	
 '''
 
 
@@ -44,6 +42,5 @@ if __name__ == '__main__':
 	print "Linsear Write Formula: " + str(textstat.linsear_write_formula(textToCheck))
 	print "Dale-Chall Readability Score: " + str(textstat.dale_chall_readability_score(textToCheck))
 	print "--------------------------------------------------------------"
-	print "--------------------------------------------------------------"
-	print "--------------------------------------------------------------"
 	print "Readability Consensus based upon all the above tests: " + str(textstat.text_standard(textToCheck))
+	print "\n\n"
